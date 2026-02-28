@@ -15,7 +15,27 @@ A simple FastAPI project designed to test Kubernetes concepts.
 ```bash
    pip install -r requirements.txt
 ```
+## Endpoints
 
+```bash
+# index page
+curl localhost:8000/
+
+# random joke
+curl localhost:8000/jokes/random
+
+# all jokes
+curl localhost:8000/jokes/list
+
+# health check probe
+curl localhost:8000/health
+
+# check env
+curl localhost:8000/jokes/info
+
+# 404 handler
+curl localhost:8000/wtf
+```
 ## Objective
 
 Implement and understand the concept of kubernetes cluster.
