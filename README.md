@@ -11,6 +11,15 @@ A simple FastAPI project designed to test Kubernetes concepts.
 
 ## Local Development
 
-1. **Install dependencies**:
-   ```bash
+**Install dependencies**:
+```bash
    pip install -r requirements.txt
+```
+
+## Objective
+
+Implement and understand the concept of kubernetes cluster.
+
+## Docs
+
+Find the docs at [/docs](https://github.com/DevOpsByNavin/k8s-svc/tree/main/docs) to get more idea on k8s services.
